@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.homepage      = 'https://github.com/callstack/react-native-fbads'
   s.source        = { :git => 'https://github.com/callstack/react-native-fbads', :tag => "v7.0.5" }
   s.platform      = :ios, '7.0'
+  s.static_framework = true
   s.dependency      'React'
   s.dependency      'FBAudienceNetwork'
 
